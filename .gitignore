@@ -59,3 +59,8 @@ embedded_frontend/.env.production.local
 embedded_frontend/npm-debug.log*
 embedded_frontend/yarn-debug.log*
 embedded_frontend/yarn-error.log*
+
+#iOS_server
+
+embedded_iOS_server/node_modules
+
