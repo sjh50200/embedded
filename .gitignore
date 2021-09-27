@@ -1,0 +1,61 @@
+#Spring boot
+
+HELP.md
+embedded_backend/target/
+embedded_backend/!.mvn/wrapper/maven-wrapper.jar
+embedded_backend/!**/src/main/**/target/
+embedded_backend/!**/src/test/**/target/
+
+### STS ###
+embedded_backend/.apt_generated
+embedded_backend/.classpath
+embedded_backend/.factorypath
+embedded_backend/.project
+embedded_backend/.settings
+embedded_backend/.springBeans
+embedded_backend/.sts4-cache
+
+### IntelliJ IDEA ###
+embedded_backend/.idea
+embedded_backend/*.iws
+embedded_backend/*.iml
+embedded_backend/*.ipr
+
+### NetBeans ###
+embedded_backend/nbproject/private/
+embedded_backend/nbbuild/
+embedded_backend/dist/
+embedded_backend/nbdist/
+embedded_backend/.nb-gradle/
+embedded_backend/build/
+embedded_backend/!**/src/main/**/build/
+embedded_backend/!**/src/test/**/build/
+
+### VS Code ###
+embedded_backend/.vscode/
+
+#React.js
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+embedded_frontend/node_modules
+embedded_frontend/.pnp
+embedded_frontend/.pnp.js
+
+# testing
+embedded_frontend/coverage
+
+# production
+embedded_frontend/build
+
+# misc
+embedded_frontend/.DS_Store
+embedded_frontend/.env.local
+embedded_frontend/.env.development.local
+embedded_frontend/.env.test.local
+embedded_frontend/.env.production.local
+
+embedded_frontend/npm-debug.log*
+embedded_frontend/yarn-debug.log*
+embedded_frontend/yarn-error.log*
