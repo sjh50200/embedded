@@ -1,0 +1,29 @@
+.box-style{
+    background-color: white;
+    border: 1px solid gray;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.option-position {
+    text-indent: 1em;
+}
+
+.option-style {
+    text-indent: 1em;
+    font-weight: normal;
+    color: black;
+}
+
+.subtitle-style {
+    font-weight: bold;
+    margin-bottom: 0px;
+}

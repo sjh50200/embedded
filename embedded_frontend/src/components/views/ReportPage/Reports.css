@@ -1,0 +1,69 @@
+.button {
+	display: flex;
+	width: 100px;
+	height: 40px;
+	justify-content: center;
+    align-items: center;
+	line-height: 54px;
+	outline: none;
+    background-color: white;
+	color: #333;
+    border-color: #59b1eb;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.button:hover {
+	background-color: #59b1eb;
+    color: white;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd67;
+}
+
+#number{
+	width: 11rem;
+}
+
+#back{
+	height: 50px;
+	width: 50px;
+	background-image: url("../../../imgs/backbutton.png");
+	background-size: 100%;
+	border: 1px solid black;
+}
+
+#back:hover{
+	cursor: pointer;
+}
+
+#show:hover{
+	cursor: pointer;
+}

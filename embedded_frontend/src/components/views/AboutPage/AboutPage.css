@@ -1,0 +1,16 @@
+.location {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.test {
+    border: 1px solid black;
+    margin-left: 2rem;
+}
+
+.profileImage {
+    width: 200px;
+    height: 256px;
+    margin-bottom: 1rem;
+}

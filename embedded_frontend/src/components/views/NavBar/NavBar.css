@@ -1,0 +1,66 @@
+.navbar{
+    /*height: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 1.2rem;
+    border: 3px solid black;*/
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'Malgun Gothic'; 
+    position: relative;
+    z-index: 3;
+    height: 5.6rem;
+}
+
+.navbar-colorful {
+    background: #11264f;
+    font-family: 'Malgun Gothic';
+    position: relative;
+    height: 5.6rem;
+    z-index: 3;
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(5, auto);
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all;
+}
+
+.nav-link:hover {
+    color: #ffc400;
+}
+
+.nav-menu {
+    margin-top: 0.8rem;
+    margin-right: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 540;
+    height: 4rem;
+    width: 8rem;
+}
+
+.nav-menu:hover {
+    color: #ffc400c9;
+    cursor: pointer;
+}

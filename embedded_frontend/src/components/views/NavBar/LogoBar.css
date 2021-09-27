@@ -1,0 +1,27 @@
+.logobar{
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 3;
+    /* border: 3px solid black; */
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: white;
+}
+
+.logo2{
+    width: 90px;
+    height: 80px;
+}
+
+.logo{
+    width: 80px;
+    height: 30px;
+}
